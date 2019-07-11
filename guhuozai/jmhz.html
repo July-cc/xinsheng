@@ -22,9 +22,9 @@
                         <li><a href="./index.html">网站首页</a></li>
                         <li><a href="./qyjs.html">企业介绍</a>
                             <ul>
-                                <li><a href="">麦翁餐饮</a></li>
-                                <li><a href="">公司风采</a></li>
-                                <li><a href="">公司荣耀</a></li>
+                                <li><a href="./qyjs.html#qy-mwcy">麦翁餐饮</a></li>
+                                <li><a href="./qyjs.html#qy-gsfc">公司风采</a></li>
+                                <li><a href="./qyjs.html#qy-gsry">公司荣耀</a></li>
                             </ul>
                         </li>
                         <li><a href="#">产品展示</a>
@@ -38,17 +38,17 @@
                         </li>
                         <li><a href="./mdzs.html">门店展示</a>
                             <ul>
-                                <li><a href="">区域代理</a></li>
-                                <li><a href="">单店加盟</a></li>
+                                <li><a href="./mdzs.html#md-qydl">区域代理</a></li>
+                                <li><a href="./mdzs.html#md-ddjm">单店加盟</a></li>
                             </ul>
                         </li>
                         <li><a href="./jmhz.html">加盟合作</a>
                             <ul>
-                                <li><a href="">区域代理</a></li>
-                                <li><a href="">单店加盟</a></li>
-                                <li><a href="">加盟流程</a></li>
-                                <li><a href="">加盟支持</a></li>
-                                <li><a href="">项目支持</a></li>
+                                <li><a href="#" class="jm-qydl">区域代理</a></li>
+                                <li><a href="#" class="jm-ddjm">单店加盟</a></li>
+                                <li><a href="#" class="jm-jmlc">加盟流程</a></li>
+                                <li><a href="#" class="jm-jmzc">加盟支持</a></li>
+                                <li><a href="#" class="jm-xmzc">项目支持</a></li>
                             </ul>
                         </li>
                         <li><a href="#">新闻中心</a>
@@ -85,7 +85,7 @@
         <section>
             <div class="section-inner">
                 <div class="s1">
-                    <p id="jump"></p>
+                    <p id="jm-qydl"></p>
                     <div class="s1-top">
                         <img class="all" src="./images/jiamenghezuo/jm1.png" alt="">
                         <img src="./images/jiamenghezuo/jm2.png" alt="">
@@ -100,6 +100,7 @@
                     </div> -->
                 </div>
                 <div class="s2">
+                    <p id="jm-ddjm"></p>
                     <div class="s2-top">
                         <img class="all" src="./images/jiamenghezuo/jm3.png" alt="">
                     </div>
@@ -108,6 +109,7 @@
                     </div>
                 </div>
                 <div class="s2 s3">
+                    <p id="jm-jmlc"></p>
                     <div class="s2-top">
                         <img class="all" src="./images/jiamenghezuo/jm5.png" alt="">
                     </div>
@@ -116,6 +118,7 @@
                     </div>
                 </div>
                 <div class="s2 s4">
+                    <p id="jm-jmzc"></p>
                     <div class="s2-top">
                         <img class="all" src="./images/jiamenghezuo/jm7.png" alt="">
                     </div>
@@ -124,6 +127,7 @@
                     </div>
                 </div>
                 <div class="s2 s5">
+                    <p id="jm-xmzc"></p>
                     <div class="s2-top">
                         <img class="all" src="./images/jiamenghezuo/jm9.png" alt="">
                     </div>
@@ -237,7 +241,26 @@
             // scrollbar: {
             //     el: '.swiper-scrollbar',
             // },
-        })     
+        })
+
+        $(window).scroll(function () {
+            console.log($(window).scrollTop());
+        })
+        $('.jm-qydl').click(function () {
+            $('body,html').animate({ 'scrollTop': 900 }, 1000)
+        });
+        $('.jm-ddjm').click(function () {
+            $('body,html').animate({ 'scrollTop': 1720 }, 1000)
+        });
+        $('.jm-jmlc').click(function () {
+            $('body,html').animate({ 'scrollTop': 2480 }, 1000)
+        });
+        $('.jm-jmzc').click(function () {
+            $('body,html').animate({ 'scrollTop': 3210 }, 1000)
+        });
+        $('.jm-xmzc').click(function () {
+            $('body,html').animate({ 'scrollTop': 3690 }, 1000)
+        });  
     </script>
 </body>
 
