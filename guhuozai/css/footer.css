@@ -26,10 +26,12 @@ footer>.footer-top>.footer-top-inner{
     justify-content: space-between;
 }
 .footer-nav>ul>li{
-    color: #000;
-    font-weight: bold;
     border-right: 1px solid #000;
     padding-right: 4%;
+}
+.footer-nav>ul>li>a:first-child{
+    color: #000;
+    font-weight: bold;
 }
 .footer-nav>ul>li>a{
     display: block;
