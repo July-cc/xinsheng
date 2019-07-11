@@ -1,0 +1,43 @@
+section{
+    width: 100%;
+}
+section>.section-inner{
+    width: 95%;
+    margin: 0 auto;
+}
+section>.section-inner>.s1>.s1-top{
+    width: 100%;
+}
+section .all{
+    display: block;
+    margin: 5vh auto;
+}
+section>.section-inner>.s1>.s1-top>img:last-child{
+    width: 100%;
+}
+section>.section-inner>.s1>.s1-down{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+section>.section-inner>.s1>.s1-down>div{
+    width: 48%;
+}
+section>.section-inner>.s1>.s1-down>div>img{
+    width: 100%;
+}
+section>.section-inner>.s1>.s1-down>div:first-child{
+    margin-top: 10%;
+}
+section>.section-inner>.s1>.s1-down>div:last-child{
+    margin-top: 5%;
+}
+section>.section-inner>.s2>.s2-down>img{
+    width: 100%;
+}
+section>.section-inner>.s5{
+    margin-bottom: 10%;
+}
+footer>.footer-top{
+    margin-bottom: 0;
+}
