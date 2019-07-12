@@ -1,0 +1,31 @@
+
+* {
+	margin:0;
+	padding:0;
+}
+.m{
+    margin-top: 10%;
+	padding: 2em 0 2em 3em;
+    width: 100%;
+    height: auto;
+    /* margin-left: 2em; */
+    margin-right: auto;
+    border: 1px solid #777;
+}
+.demo1,.demo2{
+	visibility: visible;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+    top: 3vh;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    margin-left: 0px;
+}
+.demo1>ul>li{
+    line-height: 5vh;
+}
+.clear {
+	clear: both;
+}

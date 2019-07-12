@@ -1,0 +1,142 @@
+section{
+    width: 100%;
+}
+section>.section-inner{
+    width: 95%;
+    margin: 0 auto;
+}
+section>.section-inner>.s1>.s1-top{
+    width: 100%;
+}
+section .all{
+    display: block;
+    margin: 5vh auto;
+}
+section>.section-inner>.s1>.s1-down{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+section>.section-inner>.s1>.s1-down>div{
+    width: 50%;
+}
+section>.section-inner>.s1>.s1-down>.s1-down-left>img{
+    width: 100%;
+    height: 100%;
+}
+/* section>.section-inner>.s1>.s1-down>div:first-child{
+    margin-top: 10%;
+} */
+section>.section-inner>.s1>.s1-down>.s1-down-right{
+    background-image: url(../images/xinwen/xw4.png);
+    background-position: 100% center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section>.section-inner>.s1>.s1-down>.s1-down-right>div{
+    width: 75%;
+    margin-top: 20%;
+    margin-left: 10%;
+}
+section>.section-inner>.s1>.s1-down>.s1-down-right>div>h3{
+    color: #000;
+    font-size: 2em;
+    border-bottom: 2px solid #000;
+    padding-bottom: 3%;
+}
+section>.section-inner>.s1>.s1-down>.s1-down-right>div>p{
+    color:#000;
+}
+section>.section-inner>.s1>.s1-down>.s1-down-right>div>p:nth-child(2){
+    font-size: 0.9em;
+    margin-top: 2%;
+}
+section>.section-inner>.s1>.s1-down>.s1-down-right>div>p:nth-child(3){
+    font-size: 0.9em;
+}
+section>.section-inner>.s1>.s1-down>.s1-down-right>div>p:nth-child(4){
+    margin-top: 16%;
+    text-align: justify;
+    line-height: 1.6em;
+}
+section>.section-inner>.s2>.s2-down{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+section>.section-inner>.s2>.s2-down>.s2-down-left{
+    width: 25%;
+}
+/* section>.section-inner>.s2>.s2-down>.s2-down-left>.s2-down-left-top{
+    width: 20%;
+} */
+section>.section-inner>.s2>.s2-down>.s2-down-left>.s2-down-left-top>img{
+    width: 100%;
+}
+section>.section-inner>.s2>.s2-down>.s2-down-left>.s2-down-left-down>.m>h3>span{
+    font-size: 1.5em;
+    /* border-right: 2px solid #000;
+    padding-right: 3%;
+    margin-right: 3%; */
+}
+section>.section-inner>.s2>.s2-down>.s2-down-right{
+    width: 70%;
+}
+section>.section-inner>.s2>.s2-down>.s2-down-right>.s2-down-right-top{
+    width: 100%;
+}
+section>.section-inner>.s2>.s2-down>.s2-down-right>.s2-down-right-top>ul>.new{
+    width: 92%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+section>.section-inner>.s2>.s2-down>.s2-down-right>.s2-down-right-top>ul>.new>.bgc{
+    width: 6em;
+    height: 6em;
+    background-color: #000;
+}
+section>.section-inner>.s2>.s2-down>.s2-down-right>.s2-down-right-top>ul>.new>.bgc>span{
+    display: block;
+    color: #fff;
+    text-align: center;
+}
+section>.section-inner>.s2>.s2-down>.s2-down-right>.s2-down-right-top>ul>.new>.bgc>span:first-child{
+    margin-top: 25%;
+    font-size: 1.2em;
+}
+section>.section-inner>.s2>.s2-down>.s2-down-right>.s2-down-right-top>ul>.new>.bgc>span:last-child{
+    font-size: 0.8em;
+}
+section>.section-inner>.s2>.s2-down>.s2-down-right>.s2-down-right-top>ul>.new>.text{
+    width: 88%;
+}
+section>.section-inner>.s2>.s2-down>.s2-down-right>.s2-down-right-top>ul>.new>.text>a{
+    font-size: 2em;
+    color: #e72a54;
+    font-weight: bold;
+}
+section>.section-inner>.s2>.s2-down>.s2-down-right>.s2-down-right-top>ul>.new>.text>p{
+    color:#111;
+    margin-top: 1%;
+}
+
+
+
+.s2-down-right-down>.num{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.s2-down-right-down>.demo{
+    text-align: center;
+    margin-top: 8%;
+    margin-left: -15%;
+}
+footer{
+    margin-top: 5%;
+}
+footer>.footer-top{
+    margin-bottom: 0;
+}
