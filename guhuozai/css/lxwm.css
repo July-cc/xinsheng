@@ -62,6 +62,7 @@ section>.section-inner>.s2>form>.form1>div>input{
     padding-left:1em;
     font-size: 1.1em; 
     outline: none;
+    box-shadow: 0px 0px 5px 0px #999;
 }
 section>.section-inner>.s2>form>.form1>div>input::-webkit-input-placeholder { 
     color: #777;
@@ -79,6 +80,7 @@ section>.section-inner>.s2>form>.form2>input{
     padding-left:1em;
     font-size: 1.1em; 
     outline: none;
+    box-shadow: 0px 0px 5px 0px #999;
 }
 section>.section-inner>.s2>form>.form3>textarea{
     width: 100%;
@@ -89,6 +91,7 @@ section>.section-inner>.s2>form>.form3>textarea{
     outline: none;
     padding-top: 1em;
     resize:none;
+    box-shadow: 0px 0px 5px 0px #999;
 }
 .submit{
     width: 15%;

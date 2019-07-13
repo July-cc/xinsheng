@@ -1,0 +1,116 @@
+section{
+    width: 100%;
+}
+section>.section-inner{
+    width: 95%;
+    margin: 0 auto;
+}
+section>.section-inner>.s1>.s1-top{
+    width: 100%;
+}
+section .all{
+    display: block;
+    margin: 5vh auto;
+}
+/* section>.section-inner>.s1>.s1-top>img{
+    width: 100%;
+} */
+section>.section-inner>.s1>.s1-top>.s-1-xxk{
+    width: 100%;
+}
+section>.section-inner>.s1>.s1-top>.s-1-xxk>.s-1-container>ul{
+    background-image: url(../images/chanpin/tiao.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding:2% 3%; 
+}
+section>.section-inner>.s1>.s1-top>.s-1-xxk>.s-1-container>ul>li{
+     border-right: 2px solid #fff;
+}
+section>.section-inner>.s1>.s1-top>.s-1-xxk>.s-1-container>ul>li:last-child{
+    border: 0;
+}
+section>.section-inner>.s1>.s1-top>.s-1-xxk>.s-1-container>ul>li>a>img{
+    width: 80%;
+    display: block;
+}
+section>.section-inner>.s1>.s1-top>.s-1-xxk>.s-1-pic{
+    width: 100%;
+}
+section>.section-inner>.s1>.s1-top>.s-1-xxk>.s-1-pic>div{
+    width: 100%;
+    margin-top: 1%;
+    overflow: hidden;
+    /* display: flex;
+    justify-content: space-between; */
+}
+section>.section-inner>.s1>.s1-top>.s-1-xxk>.s-1-pic>div>img{
+    display: block;
+    float: left;
+    width: 24.2%;
+    margin-left: 1.06%;
+}
+section>.section-inner>.s1>.s1-top>.s-1-xxk>.s-1-pic>div>img:first-child{
+    margin-left: 0;
+}
+section>.section-inner>.s1>.s1-top>.s-1-xxk>.s-1-pic>div{
+    /* border: 1px solid #000; */
+    display: none;
+    background-color: #fff;
+}
+section>.section-inner>.s1>.s1-top>.s-1-xxk>.s-1-pic>div>img:last-child{
+    margin-right: 0;
+}
+section>.section-inner>.s1>.s1-down{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+section>.section-inner>.s1>.s1-down{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 1%;
+}
+section>.section-inner>.s1>.s1-down>img{
+    width: 100%;
+}
+
+section>.section-inner>.s2>.s2-down{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+section>.section-inner>.s2>.s2-down>.s2-down-left,section>.section-inner>.s2>.s2-down>.s2-down-right{
+    width: 50%;
+}
+section>.section-inner>.s2>.s2-down>.s2-down-left{
+    display: flex;
+    justify-content: space-between;
+}
+section>.section-inner>.s2>.s2-down>.s2-down-left>img{
+    width: 49%;
+    height: auto;
+}
+section>.section-inner>.s2>.s2-down img{
+    display: block;
+    width: 100%;
+}
+section>.section-inner>.s5{
+    margin-bottom: 10%;
+}
+/* section>.section-inner>.s1>.s1-top>.s-1-xxk>.s-1-pic>.hb{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+} */
+section>.section-inner>.s1>.s1-top>.s-1-xxk>.s-1-pic>.hb>img{
+    width: 32.6%;
+}
+section>.section-inner>.s1>.s1-top>.s-1-xxk>.s-1-pic>div:first-child{
+    display: block;
+}
+footer>.footer-top{
+    margin-bottom: 0;
+}
