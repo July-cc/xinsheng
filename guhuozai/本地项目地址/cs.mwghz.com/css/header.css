@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.wrap{
+    width: 100%;
+}
+.bgc {
+    background-color: rgba(255, 255, 255, 0.5)
+}
+header .header-top nav>ul{
+    width: 60%;
+    /* float: left; */
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30%;
+}
+nav>ul>li{
+    /* padding:0 1%; */
+    float: left;
+    height: 3vh;
+    margin-top: 2vh;
+    position: relative;
+    /* margin-left: 5%; */
+    z-index: 99;
+    text-align: center;
+}
+nav>ul>li>a{
+    color:#000;
+    font-weight: 800;
+    display: block;
+    /* background-color:rgba(255,255,255,0.5); */
+    width: 140%;
+    line-height: 6vh;
+}
+nav>ul>li>ul>li>a{
+    color:#000;
+}
+ /* nav>ul>li>a:hover{
+    background-color:rgba(255,255,255,0.5);
+} */
+/*nav>ul>li:hover ul{
+    background-color:rgba(255,255,255,0.5);
+} */
+nav>ul>li ul{
+    /* background-color:rgba(255,255,255,0.5); */
+    width: 140%;
+    height: 0;
+    position: absolute;
+    margin-top: 3vh;
+    top: 2.9vh;
+    left: 0;
+    overflow: hidden;
+    text-align: center;
+}
+nav>ul>li>ul>li{
+    line-height: 5vh;
+}
+header .header-top{
+    background-image: url(../images/sy5.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 10vh;
+}
+
+header .banner{
+    width: 100%;
+}
+header .banner .swiper-container .swiper-wrapper .swiper-slide img{
+    width: 100%;
+}
+@media screen and (max-width: 1300px) {
+    header nav ul li a {
+        font-size: 0.6em;
+    }
+}
+@media screen and (min-width: 1450px) {
+    header nav ul li a {
+        font-size: 1em;
+    }
+}

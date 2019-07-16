@@ -1,0 +1,122 @@
+footer{
+    width: 100%;
+}
+footer>.footer-top{
+    width: 100%;
+    background-image: url(../images/sy32.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 34vh;
+    margin-bottom: 10vh;
+    /* background-color: #e72a54; */
+}
+footer>.footer-top>.footer-top-inner{
+    margin: 0 auto;
+    padding: 0 10%;
+}
+.footer-nav,.footer-top-inner-right-down{
+    width: 70%;
+    margin: 0 auto;
+    margin-left: 28%;
+    padding-top: 5vh;
+}
+.footer-nav>ul{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-nav>ul>li{
+    border-right: 1px solid #000;
+    padding-right: 4%;
+}
+.footer-nav>ul>li>a:first-child{
+    color: #000;
+    font-weight: bold;
+}
+.footer-nav>ul>li>a{
+    display: block;
+    color: #000;
+    font-weight: normal;
+}
+.footer-nav>ul>li:last-child{
+    border: 0;
+}
+.footer-top-inner-right-down{
+    margin-top: -2vh;
+}
+.footer-top-inner-right-down>span{
+    color: #000;
+    font-weight: bold;
+}
+.footer-top-inner-right-down>span:nth-child(2){
+    margin-left: 4%;
+}
+.footer-top-inner-right-down>span:last-child{
+   font-size: 2.5em;
+}
+.footer-down{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-image: url(../images/sy33.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 10vh;
+    z-index: 6;
+}
+.btn2{
+    position: absolute;
+    bottom: 25%;
+    right: 9%;
+    padding: 1vh 3vh;
+    text-align: center;
+    border-radius: 20px;
+    color: #fff;
+    background-color: #e72a54;
+}
+@media screen and (max-width: 1300px){
+    footer>.footer-top{
+        width: 100%;
+        margin-bottom: 5vh;
+    }
+    footer .footer-nav{
+        padding-top: 8vh;
+    }
+    footer .footer-nav ul li a {
+        font-size: 0.6em; 
+    }
+    .footer-top-inner-right-down{
+        margin-top: -2%;
+    }
+    .footer-top-inner-right-down span{
+        font-size: 0.6em;
+    }
+    .footer-top-inner-right-down>span:last-child{
+        font-size: 1.5em;
+     }
+}
+@media screen and (min-width: 1300px) and (max-width:1450px){
+    footer>.footer-top{
+        width: 100%;
+        margin-bottom: 7vh;
+    }
+    footer .footer-nav{
+        padding-top: 10vh;
+    }
+    footer .footer-nav ul li a {
+        font-size: 0.8em; 
+    }
+    .footer-top-inner-right-down{
+        margin-top: -3%;
+    }
+    .footer-top-inner-right-down span{
+        font-size: 0.8em;
+    }
+    .footer-top-inner-right-down>span:last-child{
+        font-size: 2em;
+     }
+}
+
+

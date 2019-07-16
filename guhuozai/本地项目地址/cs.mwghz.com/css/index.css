@@ -1,0 +1,296 @@
+section{
+    width: 100%;
+}
+section>.section-inner>.s1{
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 5vh;
+}
+section .all{
+    display: block;
+    margin: 0 auto;
+}
+section>.section-inner>.s1>.s1-top>img:last-child{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+section>.section-inner>.s1>.s1-down{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-between;
+}
+section>.section-inner>.s1>.s1-down>.s1-down-left,section>.section-inner>.s1>.s1-down>.s1-down-right{
+    width: 50%;
+    overflow: hidden;
+}
+section>.section-inner>.s1>.s1-down>.s1-down-right>video{
+    width: 100%;
+}
+section>.section-inner>.s1>.s1-down>.s1-down-left>img{
+    width: 80%;
+    margin-bottom: 3vh;
+}
+section>.section-inner>.s1>.s1-down>.s1-down-left>.s1-down-left-left{
+    background-image: url(../images/sy7.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 40%;
+    height: 35vh;
+    float: left;
+    position: relative;
+}
+section>.section-inner>.s1>.s1-down>.s1-down-left>.s1-down-left-right{
+    background-image: url(../images/sy8.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 40%;
+    height: 35vh;
+    float: left;
+    margin-left: 5%;
+    position: relative;
+}
+.btn{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    display: block;
+    width: 35%;
+    font-size: 14px;
+    background-color: #e72a54;
+    text-align: center;
+    color: #fff;
+    border-radius: 30px;
+    padding: 2% 0;
+}
+section .s2{
+    width: 100%;
+    margin-top: 10vh;
+    background-image: url(../images/sy3.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+section>.section-inner>.s2>.s2-inner{
+    width: 95%;
+    margin: 0 auto;
+    padding-bottom: 10vh;
+}
+section>.section-inner>.s2>.s2-inner>.s2-top{
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+}
+section>.section-inner>.s2>.s2-inner>.s2-down{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+section>.section-inner>.s2>.s2-inner>.s2-down>.s2-down-box{
+    width: 24%;
+}
+section>.section-inner>.s2>.s2-inner>.s2-down>.s2-down-box>.box-top{
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 5vh;
+}
+section>.section-inner>.s2>.s2-inner>.s2-down>.s2-down-box>.box-down1{
+    background-image: url(../images/sy14.png);
+    width: 100%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+section>.section-inner>.s2>.s2-inner>.s2-down>.s2-down-box>.box-down2{
+    background-image: url(../images/sy15.png);
+    width: 100%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+section>.section-inner>.s2>.s2-inner>.s2-down>.s2-down-box>.box-down3{
+    background-image: url(../images/sy16.png);
+    width: 100%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+section>.section-inner>.s2>.s2-inner>.s2-down>.s2-down-box>.box-down4{
+    background-image: url(../images/sy17.png);
+    width: 100%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+.btn1{
+    position: absolute;
+    bottom: 4%;
+    left: 27%;
+    /* margin-left: -81px; */
+    display: block;
+    width: 45%;
+    font-size: 18px;
+    background-color: #fff;
+    text-align: center;
+    color: #e72a54;
+    border-radius: 30px;
+    padding: 3% 0;
+}
+section>.section-inner>.s3{
+    width: 100%;
+    padding-bottom: 5vh;
+}
+section>.section-inner>.s3>.s3-inner{
+    width: 95%;
+    margin: 0 auto;
+}
+section>.section-inner>.s3>.s3-inner>.s3-top{
+    padding-top: 5vh;
+}
+section>.section-inner>.s3>.s3-inner>.s3-down{
+    width: 100%;
+    overflow: hidden;
+}
+section>.section-inner>.s3>.s3-inner>.s3-down>.s3-down-left{
+    width: 45%;
+    background-image: url(../images/sy21.png);
+    background-position: center 22%;
+    background-repeat: no-repeat;
+    height: 40vh;
+    float: left;
+    position: relative;
+}
+section>.section-inner>.s3>.s3-inner>.s3-down>.s3-down-right{
+    width: 55%;
+    float: left;
+}
+section>.section-inner>.s3>.s3-inner>.s3-down>.s3-down-right>a>img{
+    width: 100%;
+}
+section>.section-inner>.s3>.s3-inner>.s3-down>.s3-down-left>.btn{
+    width: 22%;
+    bottom: 15%;
+    left: 8%;
+    padding: 1.5% 0;
+}
+section>.section-inner>.s4>.s4-inner{
+    width: 95%;
+    margin: 0 auto;
+}
+section>.section-inner>.s4>.s4-inner>.s4-down>.s4-down-box{
+    width: 30%;
+}
+section>.section-inner>.s4>.s4-inner>.s4-down>.s4-down-box>.s4-box-down1>img{
+    width: 100%;
+}
+section>.section-inner>.s5{
+    width: 100%;
+    margin-bottom:15vh ;
+}
+section>.section-inner>.s5>.s5-inner{
+    width: 95%;
+    margin: 0 auto;
+}
+section>.section-inner>.s5>.s5-inner>.s5-top{
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+}
+section>.section-inner>.s5>.s5-inner>.s5-down{
+    overflow: hidden;
+}
+section>.section-inner>.s5>.s5-inner>.s5-down>.s5-down-left{
+    background-image: url(../images/sy28.png);
+    /* background-position: center center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 35%;
+    height: 57vh;
+    float: left;
+    position: relative;
+}
+section>.section-inner>.s5>.s5-inner>.s5-down>.s5-down-mid{
+    width: 35%;
+    float: left;
+    margin-left: 2%;
+}
+section>.section-inner>.s5>.s5-inner>.s5-down>.s5-down-mid>img{
+    width: 100%;
+}
+section>.section-inner>.s5>.s5-inner>.s5-down>.s5-down-right{
+    background-image: url(../images/sy30.png);
+    /* background-position: center center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 28%;
+    height: 57vh;
+    float: left;
+    position: relative;
+}
+section>.section-inner>.s5>.s5-inner>.s5-down>.s5-down-right>div{
+    width: 69%;
+    margin: 0 auto;
+    margin-top: 25%;
+}
+section>.section-inner>.s5>.s5-inner>.s5-down>.s5-down-right>div>h2{
+    font-size: 36px;
+    margin-bottom: 1vh;
+}
+section>.section-inner>.s5>.s5-inner>.s5-down>.s5-down-right>div>p{
+    font-size: 18px;
+    line-height: 4vh;
+}
+section>.section-inner>.s5>.s5-inner>.s5-down>.s5-down-left>.btn{
+    left: 62%;
+    bottom: 10%;
+    width: 25%;
+}
+section>.section-inner>.s5>.s5-inner>.s5-down>.s5-down-right>.btn{
+    left: 17%;
+    bottom: 10%;
+    width: 31%;
+    padding: 2.5% 0;
+}
+.mc{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 5;
+    background:rgba(0,0,0,0.8);
+    /* display: none; */
+}
+.mc>div{
+    width: 100%;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    /* margin-left: -395.5px;
+    margin-top: -227.5px; */
+    margin-left: -25%;
+    margin-top: -15%;
+    z-index: 7;
+    position: relative;
+}
+.mc>div>.mc-video{
+    width: 50%;
+}
+.close{
+    background:rgba(255,255,255,0.5);
+    border-radius: 50%;
+    color:#777;
+    position: absolute;
+    left: 50%;
+    top: -5%;
+    z-index: 99;
+    cursor: pointer;
+}
